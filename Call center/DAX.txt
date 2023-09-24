@@ -1,0 +1,2 @@
+Satisfaction Rating 
+Satisfaction_Rating = CALCULATE(COUNT(Sheet1[Satisfaction rating]),FILTER(Sheet1,Sheet1[Satisfaction rating] IN {4,5}))
